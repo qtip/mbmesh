@@ -1,4 +1,5 @@
 #include "mbmesh.h"
+#include <cmath>
 #include <stdio.h>
 #include <ostream>
 #include <vector>
