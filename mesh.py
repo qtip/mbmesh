@@ -17,7 +17,7 @@ class Mesh(object):
     HEADER_STRUCT = Struct('<QLL')
     VERTEX_STRUCT = Struct('<ffffffffffffLLLL')
     TRIANGLE_STRUCT = Struct('<LLL')
-    BONe_STRUCT = Struct('<Lffffffffffffffff')
+    BONE_STRUCT = Struct('<Lffffffffffffffff')
 
     def __init__(self):
         self.vertices = []
