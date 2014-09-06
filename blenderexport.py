@@ -142,7 +142,6 @@ def make_mesh(scene, obj):
         verts = []
         vert_lookup = dict() # key: vert, value: vert index
         def get_vert_id(vert):
-            print(vert)
             if vert not in vert_lookup:
                 vert_lookup[vert] = len(verts)
                 verts.append(vert)
